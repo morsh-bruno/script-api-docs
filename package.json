@@ -1,0 +1,17 @@
+{
+  "name": "bruno-script-docs",
+  "version": "0.1.0",
+  "private": true,
+  "description": "API reference site for Bruno's script API",
+  "license": "MIT",
+  "scripts": {
+    "fetch": "node ./scripts/fetch-script-api.js",
+    "build": "typedoc",
+    "docs": "npm run fetch && npm run build"
+  },
+  "devDependencies": {
+    "@types/chai": "^4.3.20",
+    "typedoc": "0.28.20",
+    "typescript": "^5.9.3"
+  }
+}

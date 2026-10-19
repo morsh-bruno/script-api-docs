@@ -1,0 +1,25 @@
+{
+  "$schema": "https://typedoc.org/schema.json",
+  "name": "Bruno Script API",
+  "entryPoints": ["types/script-api.d.ts"],
+  "tsconfig": "tsconfig.json",
+  "out": "dist",
+  "plugin": ["./typedoc/plugin.mjs"],
+  "theme": "bruno",
+  "readme": "none",
+  "customCss": "./typedoc/theme.css",
+  "favicon": "./typedoc/bruno.svg",
+  "lightHighlightTheme": "github-light",
+  "darkHighlightTheme": "github-dark",
+  "hideGenerator": true,
+  "visibilityFilters": {},
+  "disableSources": true,
+  "excludeExternals": true,
+  "categorizeByGroup": false,
+  "categoryOrder": ["bru", "req", "res", "Tests & assertions", "bru.grpc", "Types", "*"],
+  "navigation": {
+    "includeCategories": true,
+    "includeGroups": false
+  },
+  "treatWarningsAsErrors": true
+}

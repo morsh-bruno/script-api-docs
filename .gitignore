@@ -1,0 +1,4 @@
+node_modules
+dist
+types/script-api.d.ts
+.DS_Store
